@@ -1,5 +1,5 @@
 import { Member } from "../entities/Member";
-import { sendRequest } from "../utils/api_request";
+import { sendRequest } from "../utils/apiRequest";
 
 /**
  * Fetches the list of members.

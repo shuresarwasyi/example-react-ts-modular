@@ -22,7 +22,7 @@ The project structured as follows:
   - `modules/`: Contains feature-specific modules or components.
   - `layouts/`: Includes layout components for structuring the application's overall appearance.
   - `utils/`: Holds utility functions and helper modules used across the application.
-    - `api_helper.ts`: Provides utility functions for making API requests and handling authentication.
+    - `apiRequest.ts`: Provides utility functions for making API requests and handling authentication.
   - `config/`: Contains configuration files, such as API configurations.
     - `api.ts`: Contains the API configuration details, including endpoints, authentication methods, and credentials.
 
@@ -53,9 +53,9 @@ The project structured as follows:
 
 ## Customization
 
-- You can customize the API endpoints, methods, and data formats by modifying the `sendRequest` function in `util/api_helper.ts`.
+- You can customize the API endpoints, methods, and data formats by modifying the `sendRequest` function in `util/apiRequest.ts`.
 - Adjust the member data structure by updating the Member interface in `services/memberService.ts` to match the structure of your API response.
-- Implement token refresh logic in the request interceptor of `util/api_helper.ts` based on your specific token management system.
+- Implement token refresh logic in the request interceptor of `util/apiRequest.ts` based on your specific token management system.
 
 ## Getting Started
 
